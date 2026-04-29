@@ -578,7 +578,7 @@ export default function PrivacyPolicy() {
                     <UserCheck className="w-7 h-7" />
                   </div>
                   <p className="text-slate-600 leading-relaxed">
-                    FlashCards is not intended for children under 13. We do not
+                    FlashCards is not intended for children under 4. We do not
                     knowingly collect personal data from children.
                   </p>
                 </div>
