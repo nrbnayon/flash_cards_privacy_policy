@@ -612,15 +612,15 @@ export default function PrivacyPolicy() {
                   {[
                     {
                       icon: <Mail />,
-                      label: "Support Email",
-                      val: "support@1018study.com",
-                      href: "mailto:support@1018study.com",
+                      label: "Privacy Officer",
+                      val: "info@1018study.com",
+                      href: "mailto:info@1018study.com",
                     },
                     {
                       icon: <Mail />,
-                      label: "Privacy Officer",
-                      val: "openroadexperience@gmail.com",
-                      href: "mailto:openroadexperience@gmail.com",
+                      label: "Support Email",
+                      val: "support@1018study.com",
+                      href: "mailto:support@1018study.com",
                     },
                     {
                       icon: <Globe />,
