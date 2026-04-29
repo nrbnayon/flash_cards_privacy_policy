@@ -632,9 +632,9 @@ export default function PrivacyPolicy() {
                     <a
                       key={i}
                       href={item.href}
-                      className="p-8 bg-white rounded-2xl border border-slate-200/60 shadow-sm hover:border-orange-500 hover:-translate-y-2 transition-all duration-300 text-center flex flex-col items-center"
+                      className="p-6 bg-white rounded-2xl border border-slate-200/60 shadow-sm hover:border-orange-500 hover:-translate-y-2 transition-all duration-300 text-center flex flex-col items-center"
                     >
-                      <div className="w-12 h-12 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                      <div className="w-12 h-12 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mb-4">
                         {item.icon}
                       </div>
                       <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">
