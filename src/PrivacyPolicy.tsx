@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 import { QRCodeCanvas } from "qrcode.react";
 
-const APP_PACKAGE = "com.flashcards.flashcards";
+const APP_PACKAGE = "com.flashcards1018.app";
 const DEEP_LINK_URL = `intent://flashcards/privacy#Intent;package=${APP_PACKAGE};scheme=flashcards;end`;
 const STORE_URL = `https://play.google.com/store/apps/details?id=${APP_PACKAGE}`;
 
@@ -571,39 +571,39 @@ export default function PrivacyPolicy() {
               </section>
 
               {/* Section 6 & 7 Grid */}
-                <section id="children" className="scroll-mt-24 space-y-6">
-                  <SectionHeader number="06" title="Children's Privacy" />
-                  <div className="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm">
-                    <div className="w-12 h-12 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-4">
-                      <UserCheck className="w-7 h-7" />
-                    </div>
-                    <p className="text-slate-600 leading-relaxed">
-                      FlashCards is not intended for children under 13. We do
-                      not knowingly collect personal data from children.
-                    </p>
+              <section id="children" className="scroll-mt-24 space-y-6">
+                <SectionHeader number="06" title="Children's Privacy" />
+                <div className="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm">
+                  <div className="w-12 h-12 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-4">
+                    <UserCheck className="w-7 h-7" />
                   </div>
-                </section>
+                  <p className="text-slate-600 leading-relaxed">
+                    FlashCards is not intended for children under 13. We do not
+                    knowingly collect personal data from children.
+                  </p>
+                </div>
+              </section>
 
-                <section id="controls" className="scroll-mt-24 space-y-6">
-                  <SectionHeader number="07" title="Your Controls" />
-                  <div className="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm">
-                    <div className="space-y-3">
-                      {[
-                        "Edit or delete Fire Tracker entries any time.",
-                        "Delete certificate data from within the app.",
-                        "Uninstall to remove all local app data.",
-                        "Deny camera/photo access at any time.",
-                      ].map((item, i) => (
-                        <div key={i} className="flex items-center gap-3 group">
-                          <Check className="w-4 h-4 text-green-500 group-hover:scale-125 transition-transform" />
-                          <p className="text-sm font-bold text-slate-700">
-                            {item}
-                          </p>
-                        </div>
-                      ))}
-                    </div>
+              <section id="controls" className="scroll-mt-24 space-y-6">
+                <SectionHeader number="07" title="Your Controls" />
+                <div className="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm">
+                  <div className="space-y-3">
+                    {[
+                      "Edit or delete Fire Tracker entries any time.",
+                      "Delete certificate data from within the app.",
+                      "Uninstall to remove all local app data.",
+                      "Deny camera/photo access at any time.",
+                    ].map((item, i) => (
+                      <div key={i} className="flex items-center gap-3 group">
+                        <Check className="w-4 h-4 text-green-500 group-hover:scale-125 transition-transform" />
+                        <p className="text-sm font-bold text-slate-700">
+                          {item}
+                        </p>
+                      </div>
+                    ))}
                   </div>
-                </section>
+                </div>
+              </section>
 
               {/* Section 8 */}
               <section id="contact" className="scroll-mt-24 space-y-6">
