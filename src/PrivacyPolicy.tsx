@@ -578,7 +578,7 @@ export default function PrivacyPolicy() {
                     <UserCheck className="w-7 h-7" />
                   </div>
                   <p className="text-slate-600 leading-relaxed">
-                    Wildland Fire Study is not intended for children under 4. We do not
+                    Wildland Fire Study is not intended for children under 13. We do not
                     knowingly collect personal data from children.
                   </p>
                 </div>
@@ -766,6 +766,7 @@ export default function PrivacyPolicy() {
               <a
                 href="https://www.1018study.com"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-orange-500 transition-colors"
               >
                 1018study.com
@@ -783,6 +784,7 @@ export default function PrivacyPolicy() {
 
       {/* Floating Action Button */}
       <button
+      aria-label="scroll"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         className={`fixed bottom-10 right-10 w-14 h-14 bg-slate-900 text-white rounded-2xl shadow-2xl flex items-center justify-center transition-all duration-500 z-50 hover:bg-orange-500 hover:-translate-y-2 ${
           showScrollTop
