@@ -25,14 +25,14 @@ export default function AppDownload({ openApp, copyDeepLink, copiedDeepLink, dee
                 <div className="w-24 h-24 bg-white rounded-2xl p-5 shadow-2xl rotate-3 group-hover:rotate-0 transition-all duration-500">
                   <img
                     src="/logo.png"
-                    alt="FlashCards Logo"
+                    alt="Wildland Fire Study Logo"
                     className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
                   <h2 className="text-4xl md:text-6xl font-black text-white leading-tight">
                     Experience <br />
-                    <span className="text-orange-500">FlashCards</span>
+                    <span className="text-orange-500">Wildland Fire Study</span>
                   </h2>
                 </div>
               </div>

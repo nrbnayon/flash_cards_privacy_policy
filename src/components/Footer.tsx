@@ -13,7 +13,7 @@ export default function Footer({ scrollTo }: FooterProps) {
             <Shield className="w-6 h-6 text-white" />
           </div>
           <p className="text-2xl font-black text-slate-900 tracking-tight">
-            FlashCards
+            Wildland Fire Study
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function Footer({ scrollTo }: FooterProps) {
 
         <div className="max-w-2xl mx-auto pt-10 border-t border-slate-100">
           <p className="text-slate-400 text-[10px] font-bold uppercase tracking-[0.3em] leading-relaxed">
-            © 2026 FlashCards · Fire Safety Education · All Rights Reserved
+            © 2026 Wildland Fire Study · Fire Safety Education · All Rights Reserved
           </p>
         </div>
       </div>

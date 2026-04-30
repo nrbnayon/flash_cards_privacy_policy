@@ -186,13 +186,13 @@ export default function PrivacyPolicy() {
               <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg shadow-orange-500/30 group-hover:rotate-6 transition-transform duration-300">
                 <img
                   src="/logo.png"
-                  alt="FlashCards Logo"
+                  alt="Wildland Fire Study Logo"
                   className="w-10 h-10"
                 />
               </div>
               <div className="flex flex-col">
                 <span className="font-black text-lg tracking-tight text-slate-900 leading-tight">
-                  FlashCards
+                  Wildland Fire Study
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.2em] font-black text-orange-600 leading-none">
                   Privacy First
@@ -282,7 +282,7 @@ export default function PrivacyPolicy() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed mb-12">
-              FlashCards respects your privacy. We believe fire safety education
+              Wildland Fire Study respects your privacy. We believe fire safety education
               should be accessible, secure, and entirely under your control.
             </p>
 
@@ -366,9 +366,9 @@ export default function PrivacyPolicy() {
               {/* Intro Card */}
               <div className="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm leading-relaxed text-slate-600 text-lg">
                 <p>
-                  <strong className="text-slate-900">FlashCards</strong> ("we,"
+                  <strong className="text-slate-900">Wildland Fire Study</strong> ("we,"
                   "our," or "us") respects your privacy. This Privacy Policy
-                  explains how the app uses information when you use FlashCards
+                  explains how the app uses information when you use Wildland Fire Study
                   for fire safety education, quiz progress, certificate storage,
                   Fire Tracker incident logging, image capture, and exports.
                 </p>
@@ -578,7 +578,7 @@ export default function PrivacyPolicy() {
                     <UserCheck className="w-7 h-7" />
                   </div>
                   <p className="text-slate-600 leading-relaxed">
-                    FlashCards is not intended for children under 4. We do not
+                    Wildland Fire Study is not intended for children under 4. We do not
                     knowingly collect personal data from children.
                   </p>
                 </div>
@@ -667,14 +667,14 @@ export default function PrivacyPolicy() {
                     <div className="w-24 h-24 bg-white rounded-2xl p-5 shadow-2xl rotate-3 group-hover:rotate-0 transition-all duration-500">
                       <img
                         src="/logo.png"
-                        alt="FlashCards Logo"
+                        alt="Wildland Fire Study Logo"
                         className="w-full h-full object-contain"
                       />
                     </div>
                     <div>
                       <h2 className="text-4xl md:text-6xl font-black text-white leading-tight">
                         Experience <br />
-                        <span className="text-orange-500">FlashCards</span>
+                        <span className="text-orange-500">Wildland Fire Study</span>
                       </h2>
                     </div>
                   </div>
@@ -746,7 +746,7 @@ export default function PrivacyPolicy() {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <p className="text-2xl font-black text-slate-900 tracking-tight">
-                FlashCards
+                Wildland Fire Study
               </p>
             </div>
 
@@ -774,7 +774,7 @@ export default function PrivacyPolicy() {
 
             <div className="max-w-2xl mx-auto pt-10 border-t border-slate-100">
               <p className="text-slate-400 text-[10px] font-bold uppercase tracking-[0.3em] leading-relaxed">
-                © 2026 FlashCards · Fire Safety Education · All Rights Reserved
+                © 2026 Wildland Fire Study · Fire Safety Education · All Rights Reserved
               </p>
             </div>
           </div>

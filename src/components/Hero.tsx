@@ -68,7 +68,7 @@ export default function Hero() {
           className="text-lg md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed mb-16 font-medium animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          FlashCards respects your privacy. We believe fire safety education
+          Wildland Fire Study respects your privacy. We believe fire safety education
           should be accessible, secure, and{" "}
           <span className="text-slate-900 font-bold">
             entirely under your control.

@@ -35,11 +35,11 @@ export default function Header({ sections, activeSection, scrollTo, openApp }: H
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg shadow-orange-500/30 group-hover:rotate-6 transition-transform duration-300">
-              <img src="/logo.png" alt="FlashCards Logo" className="w-10 h-10" />
+              <img src="/logo.png" alt="Wildland Fire Study Logo" className="w-10 h-10" />
             </div>
             <div className="flex flex-col">
               <span className="font-black text-lg tracking-tight text-slate-900 leading-tight">
-                FlashCards
+                Wildland Fire Study
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] font-black text-orange-600 leading-none">
                 Privacy First

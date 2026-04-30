@@ -1,6 +1,6 @@
-# FlashCards Privacy Policy Web App
+# Wildland Fire Study Privacy Policy Web App
 
-A premium, responsive, and modern Privacy Policy web application built for the **FlashCards** mobile app. This site provides users with clear information about data collection, storage, and security practices while maintaining a high-end visual aesthetic.
+A premium, responsive, and modern Privacy Policy web application built for the **Wildland Fire Study** mobile app. This site provides users with clear information about data collection, storage, and security practices while maintaining a high-end visual aesthetic.
 
 ## ✨ Features
 
